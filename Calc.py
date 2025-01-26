@@ -26,7 +26,7 @@ def main():
     # Converts grams to kilograms
     kilograms = grams / 1000
     
-    # Displays the output message 
+    # Calls the inputs and displays the output message 
     print ("Hello,", user, "!", grams, "grams is equivalent to", kilograms,
             "kilograms! Thank you for using this super awesome A+ program!")
 
