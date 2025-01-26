@@ -17,9 +17,10 @@
 
 # defines main 
 def main():
-    # Assigns grams a value
+    # Welcome message.
     # Stops to ask the user to enter their name as a string
-    user = str(input("Please enter your name:"))
+    user = str(input("This program converts grams to kilograms. " 
+                    "Please enter your name:"))
 
     # Stops the program and asks for a floating point number as input
     grams =  float(input("Please enter an amount in grams:"))
