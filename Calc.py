@@ -17,6 +17,9 @@
 # defines main 
 def main():
     # Assigns grams a value
+    # Stops to ask the user to enter their name as a string
+    user = str(input("Please enter your name:"))
+
     # Stops the program and asks for a floating point number as input
     grams =  float(input("Please enter an amount in grams:"))
 
@@ -24,7 +27,8 @@ def main():
     kilograms = grams / 1000
     
     # Displays the output message 
-    print (grams, "grams is equivalent to", kilograms, "kilograms")
+    print ("Hello,", user, "!", grams, "grams is equivalent to", kilograms,
+            "kilograms! Thank you for using this super awesome A+ program!")
 
 # Runs the main program
 main()
