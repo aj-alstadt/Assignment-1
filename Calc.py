@@ -2,7 +2,8 @@
 # Author:       	AJ Alstadt
 # Assignment:       Assignment 1
 # Date:         	1/26/2025
-# Description:  	This program prompts a user to enter an amount of grams 
+# Description:  	This program prompts a user to enter a name, then 
+#                   amount of grams 
 #                   and converts the number into kilograms.
 # Input:        	Amount of grams
 # Output:       	The same amount, displayed in kilograms
